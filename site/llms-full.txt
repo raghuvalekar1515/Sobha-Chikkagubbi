@@ -108,20 +108,20 @@ Map: https://www.google.com/maps/search/?api=1&query=13.084928%2C77.661576
 
 ## Pages
 
-- [Home](https://sobhachikkagubbi.info/): summary, key figures and the register-interest form
-- [Overview](https://sobhachikkagubbi.info/overview): the project highlights and infrastructure
-- [Floor Plans](https://sobhachikkagubbi.info/floor-plan): the nine home types, with indicative layouts
-- [Master Plan](https://sobhachikkagubbi.info/master-plan): the plan of residential blocks, the commercial precinct, parks and the lake edge
-- [Amenities](https://sobhachikkagubbi.info/amenities): the clubhouse, amenity block and social infrastructure
-- [Location](https://sobhachikkagubbi.info/location): Kannur and Chikkagubbi near Hennur Road, and what is near it
-- [Price](https://sobhachikkagubbi.info/price): home types and homes planned, with the indicative price
-- [Gallery](https://sobhachikkagubbi.info/gallery): pictures of the arrival, clubhouse, gardens, a home and the towers at dusk
-- [FAQs](https://sobhachikkagubbi.info/faqs): location, home types, price, the home office format, amenities and the developer
-- [Contact](https://sobhachikkagubbi.info/contact-us): register your interest
+- [Home](https://sobhachikkagubbi.com/): summary, key figures and the register-interest form
+- [Overview](https://sobhachikkagubbi.com/overview): the project highlights and infrastructure
+- [Floor Plans](https://sobhachikkagubbi.com/floor-plan): the nine home types, with indicative layouts
+- [Master Plan](https://sobhachikkagubbi.com/master-plan): the plan of residential blocks, the commercial precinct, parks and the lake edge
+- [Amenities](https://sobhachikkagubbi.com/amenities): the clubhouse, amenity block and social infrastructure
+- [Location](https://sobhachikkagubbi.com/location): Kannur and Chikkagubbi near Hennur Road, and what is near it
+- [Price](https://sobhachikkagubbi.com/price): home types and homes planned, with the indicative price
+- [Gallery](https://sobhachikkagubbi.com/gallery): pictures of the arrival, clubhouse, gardens, a home and the towers at dusk
+- [FAQs](https://sobhachikkagubbi.com/faqs): location, home types, price, the home office format, amenities and the developer
+- [Contact](https://sobhachikkagubbi.com/contact-us): register your interest
 
 ## Contact
 
-Enquiries go through the form at https://sobhachikkagubbi.info/contact-us. No public telephone number
+Enquiries go through the form at https://sobhachikkagubbi.com/contact-us. No public telephone number
 is published on this website.
 
 ## Questions buyers ask

@@ -25,11 +25,10 @@ Telegram and the shared Google Sheet.
 > indicative) and the amenity illustrations. Replace them with Sobha's own pictures
 > and plans when they are released.
 >
-> **THE DOMAIN IS A PROPOSAL.** `sobhachikkagubbi.info` is developer + project name, as
-> the checklist asks for a named project. The `.com` belongs to another channel
-> partner's site; `.info` (and `.net`) were free on 17 October 2026. The domain is in
-> every canonical URL, the sitemap, the schema and the llms files: if you choose
-> another, rebuild.
+> **THE DOMAIN.** The site is live at `sobhachikkagubbi.com` (developer + project
+> name, as the checklist asks for a named project), a custom domain on the
+> `sobha-chikkagubbi` Worker. The domain is in every canonical URL, the sitemap, the
+> schema and the llms files: if it ever changes, rebuild.
 >
 > **The same land is also marketed as Sobha Hennur** (same facts, same pictures). Its
 > microsite is a separate build with its own copy, angle and picture order.
@@ -154,13 +153,12 @@ Every push then redeploys. Confirm the site serves before going further.
 **and** `www`. You add no A or CNAME record yourself: Workers custom domains
 require the zone on Cloudflare and Cloudflare writes the record.
 
-`sobhachikkagubbi.info` is a proposal (the `.com` is taken). Register it (or your
-choice, then rebuild) and add the zone to Cloudflare first - every page's canonical
-points at it.
+`sobhachikkagubbi.com` is connected this way, and every page's canonical points at
+it.
 
 ### 4. Email
 
-1. **Email Service → Email Routing** → enable for `sobhachikkagubbi.info`.
+1. **Email Service → Email Routing** → enable for `sobhachikkagubbi.com`.
    Cloudflare adds MX, SPF and DKIM itself.
 2. **Destination Addresses** → add the recipient → **click the verification
    link**. Mail will not send until this is done.
@@ -207,7 +205,7 @@ secret. The `LEAD_SHEET` service binding in `wrangler.jsonc` calls the
 account, which holds them and writes the row. `/api/lead/status` reports
 `"sheet":{"configured":true}` once deployed.
 
-The row's Page URL column is the full URL (`https://sobhachikkagubbi.info/price`),
+The row's Page URL column is the full URL (`https://sobhachikkagubbi.com/price`),
 which is how the shared sheet tells this site from the others. Every row also
 names the project, the same whatever page or form the lead came from: Project
 Name `Sobha Chikkagubbi`, City `Bangalore`, Project Zone `North Bangalore`, Project
@@ -234,7 +232,7 @@ After a deploy, through the edge cache - `cf-cache-status: HIT` will otherwise
 serve a stale page and make a correct change look broken:
 
 ```sh
-D=https://sobhachikkagubbi.info
+D=https://sobhachikkagubbi.com
 C=$(date +%s)
 
 curl -s "$D/?cb=$C" | md5sum; md5sum site/index.html   # deployed matches local
@@ -306,7 +304,7 @@ re-exporting from Webflow, re-add its `<script>` line along with
 `CLAUDE.md` is the standing microsite checklist this site was built and checked
 against. What is left once the domain is connected (its phases 6 to 8):
 
-1. Redirect `www.sobhachikkagubbi.info` to `sobhachikkagubbi.info` (a Cloudflare Redirect Rule).
+1. Redirect `www.sobhachikkagubbi.com` to `sobhachikkagubbi.com` (a Cloudflare Redirect Rule).
 2. Telegram: `TELEGRAM_BOT_TOKEN` (@PropNewzMSbot) as a Worker secret (below); leads go to the
    zone group and both All Bangalore groups. Confirm with `/api/lead/status?check=telegram`.
 3. Email Routing: verify the `LEAD_EMAIL_TO` destination address.
