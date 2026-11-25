@@ -116,6 +116,8 @@ Map: https://www.google.com/maps/search/?api=1&query=13.084928%2C77.661576
 - [Location](https://sobhachikkagubbi.com/location): Kannur and Chikkagubbi near Hennur Road, and what is near it
 - [Price](https://sobhachikkagubbi.com/price): home types and homes planned, with the indicative price
 - [Gallery](https://sobhachikkagubbi.com/gallery): pictures of the arrival, clubhouse, gardens, a home and the towers at dusk
+- [About Sobha Limited](https://sobhachikkagubbi.com/about-builder): the developer, its history, its cities and its Bengaluru projects
+- [Sobha Chikkagubbi vs Purva Skye](https://sobhachikkagubbi.com/vs-purva-skye): a side-by-side comparison with a two-tower project on Hennur Main Road
 - [FAQs](https://sobhachikkagubbi.com/faqs): location, home types, price, the home office format, amenities and the developer
 - [Contact](https://sobhachikkagubbi.com/contact-us): register your interest
 
